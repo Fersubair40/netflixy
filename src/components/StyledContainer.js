@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
-	background: ${props => props.theme.primaryBg};
+	background: #333852;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #333852;
-	min-height: 100vh;
-
 	&:before {
-		content: "NETFLIXY";
-		postion: fixed;
+		content: 'NETFLIXY';
+		position: fixed;
 		top: 18vh;
 		left: 10vw;
 		font-size: 9vw;
