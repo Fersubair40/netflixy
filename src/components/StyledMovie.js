@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const StyledMovie = styled.div`
-	padding: 0.6rem;
+  padding: 0.6rem;
 `;
+
 export default StyledMovie;
