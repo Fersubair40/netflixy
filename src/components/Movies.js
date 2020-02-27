@@ -9,6 +9,10 @@ import StyledFooter from './StyledFooter';
 import StyledLargeBtn from './StyledLargeBtn';
 
 class Movies extends Component {
+	componentDidMount() {
+		this.props.getMovies();
+	}
+
 	render() {
 		return (
 			<Fragment>
@@ -21,7 +25,7 @@ class Movies extends Component {
 				<StyledHorizontalScroll>
 					{this.props.movies.map(movie => (
 						<Movie
-							key={movie.id}
+							key={movie.name	}
 							name={movie.name}
 							poster={movie.poster}
 							duration={movie.duration}
