@@ -8,6 +8,7 @@ const StyledMovieTitle = styled.div`
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: ${props => (props.isLarge ? "wrap" : "nowrap")};
+  animation-delay: 0.2s;
 `;
 
 export default StyledMovieTitle;
