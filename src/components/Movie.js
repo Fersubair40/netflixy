@@ -13,3 +13,4 @@ const Movie = ({ poster, name, duration, year, index }) => (
 );
 
 export default Movie;
+
